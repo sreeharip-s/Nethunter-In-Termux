@@ -116,7 +116,7 @@ getsha() {
 # Utility function to check integrity
 checkintegrity() {
 	printf "\n${blue} [*] Checking integrity of file..."
-	prinf "\n [*] The script will immediately terminate in case of integrity failure"
+	printf "\n [*] The script will immediately terminate in case of integrity failure"
 	printf "${reset}\n"
 	sha512sum -c $rootfs.sha512sum || \\
         {
