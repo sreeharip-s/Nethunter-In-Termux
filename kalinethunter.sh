@@ -229,7 +229,7 @@ if [[ ! -z $1 ]]; then
 fi
 
 printf "\n${yellow} You are going to install Kali Nethunter"
-printf "\n In Termux Without Root ;) Cool"
+printf "\n In Termux Without Root ;) Cool\n\n"
 
 pre_cleanup
 checksysinfo
